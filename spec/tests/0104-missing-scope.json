@@ -1,0 +1,9 @@
+{
+  "description": "A component with no 'scope' is invalid: every component must be grounded in a dataset.",
+  "data": {
+    "id": "intelligible/customers_discount",
+    "type": "column",
+    "statement": "discount is a float column in the customers table."
+  },
+  "valid": false
+}

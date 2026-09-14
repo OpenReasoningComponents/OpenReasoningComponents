@@ -1,0 +1,10 @@
+{
+  "description": "An id with more than one '/' is invalid: the separator appears exactly once.",
+  "data": {
+    "id": "intelligible/customers/discount",
+    "type": "column",
+    "scope": { "source": "customer_churn" },
+    "statement": "discount is a float column in the customers table."
+  },
+  "valid": false
+}

@@ -1,0 +1,10 @@
+{
+  "description": "An id with no '/' namespace separator is invalid.",
+  "data": {
+    "id": "customers_discount",
+    "type": "column",
+    "scope": { "source": "customer_churn" },
+    "statement": "discount is a float column in the customers table."
+  },
+  "valid": false
+}

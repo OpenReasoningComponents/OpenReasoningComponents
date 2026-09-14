@@ -1,0 +1,9 @@
+{
+  "description": "A component with no 'statement' is invalid: it is the one field that is always required and always canonical.",
+  "data": {
+    "id": "intelligible/customers_discount",
+    "type": "column",
+    "scope": { "source": "customer_churn" }
+  },
+  "valid": false
+}

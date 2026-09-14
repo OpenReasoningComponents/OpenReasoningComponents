@@ -1,0 +1,11 @@
+{
+  "description": "A property not defined by the schema (here, a misspelled 'evidance') is invalid: the schema is closed at the top level.",
+  "data": {
+    "id": "intelligible/customers_discount",
+    "type": "column",
+    "scope": { "source": "customer_churn" },
+    "statement": "discount is a float column in the customers table.",
+    "evidance": { "sample_size": 100 }
+  },
+  "valid": false
+}

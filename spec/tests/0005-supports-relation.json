@@ -1,0 +1,13 @@
+{
+  "description": "A 'supports' relation (evidence pointing toward a downstream claim, no refresh dependency implied) is valid.",
+  "data": {
+    "id": "intelligible/discount_distribution",
+    "type": "distribution",
+    "scope": { "source": "customer_churn" },
+    "statement": "Customer discounts range from 0% to 35%, with a median of 12%.",
+    "relations": [
+      { "type": "supports", "target_id": "intelligible/churn_discount_threshold" }
+    ]
+  },
+  "valid": true
+}

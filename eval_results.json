@@ -1,0 +1,54 @@
+[
+  {
+    "label": "churn (500 rows)",
+    "answer_model": "claude-sonnet-5",
+    "judge_model": "claude-opus-5",
+    "trials": 3,
+    "conditions": [
+      {
+        "name": "no_context",
+        "avg_tokens": 36,
+        "avg_score": 1.9166666666666667,
+        "n_scored": 12
+      },
+      {
+        "name": "profile",
+        "avg_tokens": 505,
+        "avg_score": 3.4166666666666665,
+        "n_scored": 12
+      },
+      {
+        "name": "components",
+        "avg_tokens": 202,
+        "avg_score": 5,
+        "n_scored": 12
+      }
+    ]
+  },
+  {
+    "label": "churn (5000 rows)",
+    "answer_model": "claude-sonnet-5",
+    "judge_model": "claude-opus-5",
+    "trials": 3,
+    "conditions": [
+      {
+        "name": "no_context",
+        "avg_tokens": 36,
+        "avg_score": 1.9166666666666667,
+        "n_scored": 12
+      },
+      {
+        "name": "profile",
+        "avg_tokens": 522,
+        "avg_score": 3.5,
+        "n_scored": 12
+      },
+      {
+        "name": "components",
+        "avg_tokens": 203,
+        "avg_score": 4.916666666666667,
+        "n_scored": 12
+      }
+    ]
+  }
+]

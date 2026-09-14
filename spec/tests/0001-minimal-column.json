@@ -1,0 +1,10 @@
+{
+  "description": "A minimal component with only the required fields is valid.",
+  "data": {
+    "id": "intelligible/customers_discount",
+    "type": "column",
+    "scope": { "source": "customer_churn" },
+    "statement": "discount is a float column in the customers table representing the discount rate applied to a customer's contract, ranging from 0% to 35%."
+  },
+  "valid": true
+}

@@ -1,0 +1,32 @@
+{
+  "description": "A full threshold_rule component with relations, structure, evidence and provenance is valid.",
+  "data": {
+    "id": "intelligible/churn_discount_threshold",
+    "type": "threshold_rule",
+    "scope": { "source": "customer_churn" },
+    "statement": "Customers receiving discounts above 20% churn substantially more often.",
+    "relations": [
+      { "type": "depends_on", "target_id": "intelligible/customers_discount" },
+      { "type": "depends_on", "target_id": "intelligible/customers_churn" },
+      { "type": "depends_on", "target_id": "intelligible/discount_distribution" }
+    ],
+    "structure": {
+      "feature": "discount",
+      "threshold": 0.20,
+      "direction": "above"
+    },
+    "evidence": {
+      "odds_ratio": 1.7,
+      "sample_size": 4821,
+      "p_value": 0.0003,
+      "ci_lower": 1.3,
+      "ci_upper": 2.2
+    },
+    "provenance": {
+      "source": "derived",
+      "method": "component_generator",
+      "timestamp": "2026-03-15T10:00:00Z"
+    }
+  },
+  "valid": true
+}

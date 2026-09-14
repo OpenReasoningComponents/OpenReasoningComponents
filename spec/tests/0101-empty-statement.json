@@ -1,0 +1,10 @@
+{
+  "description": "An empty 'statement' is invalid: minLength 1.",
+  "data": {
+    "id": "intelligible/customers_discount",
+    "type": "column",
+    "scope": { "source": "customer_churn" },
+    "statement": ""
+  },
+  "valid": false
+}

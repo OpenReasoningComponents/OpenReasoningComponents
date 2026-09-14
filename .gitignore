@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# examples/eval.py's generated churn fixtures (written here unless --tmp-dir is passed)
+customers_*.csv
+
+# Python cache (for future SDKs)
+__pycache__/
+*.pyc
+
+# Node modules
+node_modules/
+
+# Virtual environments
+.venv/
+venv/

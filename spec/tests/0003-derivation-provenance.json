@@ -1,0 +1,16 @@
+{
+  "description": "A component whose provenance cites an external, versioned derivation (e.g. an Open Derivation Spec derivation) is valid. This is the link a producing system uses to let a consumer check freshness without any refresh machinery in this spec.",
+  "data": {
+    "id": "intelligible/churn_discount_threshold",
+    "type": "threshold_rule",
+    "scope": { "source": "customer_churn" },
+    "statement": "Customers receiving discounts above 20% churn substantially more often.",
+    "evidence": { "odds_ratio": 1.7, "sample_size": 4821 },
+    "provenance": {
+      "source": "derived",
+      "derivation": "churn_discount_threshold",
+      "derivation_version": "a3f8c9e21d40b7f6"
+    }
+  },
+  "valid": true
+}

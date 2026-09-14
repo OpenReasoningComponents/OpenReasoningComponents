@@ -1,0 +1,10 @@
+{
+  "description": "A system-defined custom component type (not one of the nine v0 types) is valid: 'type' is an open string, not a closed enum.",
+  "data": {
+    "id": "intelligible/tenure_contract_interaction",
+    "type": "x_interaction_effect",
+    "scope": { "source": "customer_churn" },
+    "statement": "The protective effect of tenure on churn is weaker for month-to-month contracts than for annual contracts."
+  },
+  "valid": true
+}

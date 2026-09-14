@@ -1,0 +1,13 @@
+{
+  "description": "A relation with no 'target_id' is invalid.",
+  "data": {
+    "id": "intelligible/churn_discount_threshold",
+    "type": "threshold_rule",
+    "scope": { "source": "customer_churn" },
+    "statement": "Customers receiving discounts above 20% churn substantially more often.",
+    "relations": [
+      { "type": "depends_on" }
+    ]
+  },
+  "valid": false
+}

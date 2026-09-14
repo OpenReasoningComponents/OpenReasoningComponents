@@ -1,0 +1,17 @@
+{
+  "description": "Arbitrary application-specific 'metadata' alongside relations is valid.",
+  "data": {
+    "id": "intelligible/loyal_fiber_segment",
+    "type": "segment",
+    "scope": { "source": "customer_churn" },
+    "statement": "A segment of long-tenure fiber optic customers with high monthly charges shows low churn.",
+    "relations": [
+      { "type": "derived_from", "target_id": "intelligible/churn_model_v2" }
+    ],
+    "metadata": {
+      "dashboard_tile": "retention-overview",
+      "confidence_tier": "high"
+    }
+  },
+  "valid": true
+}
